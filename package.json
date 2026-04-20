@@ -35,6 +35,7 @@
     "build": "stencil build",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil-test",
+    "test:browser": "VITEST_BROWSER=true stencil-test",
     "test:watch": "stencil-test --watch",
     "generate": "stencil generate"
   },
